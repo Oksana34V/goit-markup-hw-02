@@ -102,7 +102,7 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.team-list {
+.team-item {
   background-color: #ffffff;
 }
 .team-name {
@@ -121,7 +121,7 @@ a {
   color: #434455;
 }
 .works-text {
-  ext-transform: capitalize;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
