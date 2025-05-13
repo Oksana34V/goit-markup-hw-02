@@ -6,7 +6,10 @@
     <title>WebStudio</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,10 +22,12 @@
   <body>
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="./index.html">WebStudio</a>
+        <a class="logo header-logo" href="./index.html"
+          >Web <span class="logo-part">Studio</span></a
+        >
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-link" href="#">Studio</a>
+            <a class="header-link" href="./index.html">Studio</a>
           </li>
           <li class="header-item">
             <a class="header-link" href="#">Portfolio</a>
@@ -32,15 +37,15 @@
           </li>
         </ul>
       </nav>
-      <address class="address">
-        <ul class="address-list">
-          <li class="address-item">
-            <a class="address-link" href="mailto:info@devstudio.com"
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="address-item">
-            <a class="address-link" href="tel:+110001111111"
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -64,7 +69,7 @@
           </li>
 
           <li class="description-item">
-            <h3 class="description-name">Punctuality</h3>
+            <h3 class="description-title">Punctuality</h3>
             <p class="description-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
@@ -72,7 +77,7 @@
           </li>
 
           <li class="description-item">
-            <h3 class="description-name">Diligence</h3>
+            <h3 class="description-title">Diligence</h3>
             <p class="description-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
@@ -80,7 +85,7 @@
           </li>
 
           <li class="description-item">
-            <h3 class="description-name">Technologies</h3>
+            <h3 class="description-title">Technologies</h3>
             <p class="description-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -170,7 +175,7 @@
             <img
               class="works-img"
               src="./images/imgtaxi.jpg"
-              alt="Car interior with GPS navigation and driver’s hands on the wheel"
+              alt="Car interior with GPS navigation and driver's hands on the wheel"
               width="360"
             />
             <h4 class="works-name">Taxi Service</h4>
@@ -180,7 +185,7 @@
             <img
               class="works-img"
               src="./images/imgscreen.jpg"
-              alt=""
+              alt="Futuristic phone screen and moon-themed digital wallpapers"
               width="360"
             />
             <h4 class="works-name">Screen Illustrations</h4>
@@ -190,7 +195,7 @@
             <img
               class="works-img"
               src="./images/imgcourses.jpg"
-              alt=""
+              alt="Girl in an orange sweater"
               width="360"
             />
             <h4 class="works-name">Online Courses</h4>
@@ -200,8 +205,10 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-link" href="./index.html">WebStudio</a>
-      <p class="footer-text">
+      <a class="logo header-logo" href="./index.html"
+        >Web <span class="footer-logo">Studio</span></a
+      >
+      <p class=".footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
